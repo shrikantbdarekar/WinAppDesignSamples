@@ -52,8 +52,68 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginForms\FormLoginIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForms\FormLoginIndex.Designer.cs">
+      <DependentUpon>FormLoginIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForms\FormLoginSimpleWithProjectName2 - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForms\FormLoginSimpleWithProjectName2 - Copy.Designer.cs">
+      <DependentUpon>FormLoginSimpleWithProjectName2 - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForms\FormLoginFullScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForms\FormLoginFullScreen1.Designer.cs">
+      <DependentUpon>FormLoginFullScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForms\FormLoginSimpleWithProjectName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForms\FormLoginSimpleWithProjectName.Designer.cs">
+      <DependentUpon>FormLoginSimpleWithProjectName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForms\FormLoginSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForms\FormLoginSimple.Designer.cs">
+      <DependentUpon>FormLoginSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterForm\FormChild1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterForm\FormChild1.Designer.cs">
+      <DependentUpon>FormChild1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterForm\FormMasterDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterForm\FormMasterDesign.Designer.cs">
+      <DependentUpon>FormMasterDesign.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LoginForms\FormLoginIndex.resx">
+      <DependentUpon>FormLoginIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForms\FormLoginSimpleWithProjectName2 - Copy.resx">
+      <DependentUpon>FormLoginSimpleWithProjectName2 - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForms\FormLoginFullScreen1.resx">
+      <DependentUpon>FormLoginFullScreen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForms\FormLoginSimpleWithProjectName.resx">
+      <DependentUpon>FormLoginSimpleWithProjectName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForms\FormLoginSimple.resx">
+      <DependentUpon>FormLoginSimple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterForm\FormMasterDesign.resx">
+      <DependentUpon>FormMasterDesign.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +122,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -72,12 +133,15 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\bee-2389834_640.webp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />
+    <None Include="Resources\aerial-view-business-team.jpg" />
+    <None Include="Resources\pencil-icon-left-side-white-background.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
