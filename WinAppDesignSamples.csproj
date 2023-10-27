@@ -58,11 +58,11 @@
     <Compile Include="LoginForms\FormLoginIndex.Designer.cs">
       <DependentUpon>FormLoginIndex.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForms\FormLoginSimpleWithProjectName2 - Copy.cs">
+    <Compile Include="LoginForms\FormLoginSimpleWithProjectName2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForms\FormLoginSimpleWithProjectName2 - Copy.Designer.cs">
-      <DependentUpon>FormLoginSimpleWithProjectName2 - Copy.cs</DependentUpon>
+    <Compile Include="LoginForms\FormLoginSimpleWithProjectName2.Designer.cs">
+      <DependentUpon>FormLoginSimpleWithProjectName2.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForms\FormLoginFullScreen1.cs">
       <SubType>Form</SubType>
@@ -99,8 +99,8 @@
     <EmbeddedResource Include="LoginForms\FormLoginIndex.resx">
       <DependentUpon>FormLoginIndex.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForms\FormLoginSimpleWithProjectName2 - Copy.resx">
-      <DependentUpon>FormLoginSimpleWithProjectName2 - Copy.cs</DependentUpon>
+    <EmbeddedResource Include="LoginForms\FormLoginSimpleWithProjectName2.resx">
+      <DependentUpon>FormLoginSimpleWithProjectName2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForms\FormLoginFullScreen1.resx">
       <DependentUpon>FormLoginFullScreen1.cs</DependentUpon>
